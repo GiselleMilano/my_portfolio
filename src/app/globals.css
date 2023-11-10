@@ -9,3 +9,25 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.skill-element-violet {
+  @apply items-center text-center hover:transition-transform hover:ease-in-out hover:duration-300 text-neutral-50 p-4 hover:scale-105 rounded-md border-2 border-[#a643bc];
+}
+.skill-element-pink {
+  @apply items-center text-center hover:transition-transform hover:ease-in-out hover:duration-300 text-neutral-50 p-4 hover:scale-105 rounded-md border-2 border-[#c3467b];
+  
+}
+.skill-element-red {
+  @apply items-center text-center hover:transition-transform hover:ease-in-out hover:duration-300 text-neutral-50 p-4 hover:scale-105 rounded-md border-2 border-[#d8484a];
+}
+
+.soft-skill-element-violet {
+  @apply justify-center gap-2 flex hover:transition-transform hover:ease-in-out hover:duration-300 flex-col items-center text-center text-neutral-50 p-4 hover:scale-105 rounded-md border-2 border-[#a643bc];
+}
+.soft-skill-element-pink {
+  @apply justify-center hover:transition-transform hover:ease-in-out hover:duration-300 gap-2 flex flex-col items-center text-center text-neutral-50 p-4 hover:scale-105 rounded-md border-2 border-[#c3467b];
+  
+}
+.soft-skill-element-red {
+  @apply justify-center hover:transition-transform hover:ease-in-out hover:duration-300 gap-2 flex flex-col items-center text-center text-neutral-50 p-4 hover:scale-105 rounded-md border-2 border-[#d8484a];
+}

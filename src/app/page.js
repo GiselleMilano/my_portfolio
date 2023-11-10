@@ -3,6 +3,7 @@ import Greeting from "@/components/Greeting";
 import AboutMe from "@/components/AboutMe";
 import SkillsGrid from "@/components/SkillsGrid";
 import SoftSkillsGrid from "@/components/SoftSkillsGrid";
+import ContactMe from "@/components/ContactMe";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <AboutMe />
         <SkillsGrid />
         <SoftSkillsGrid />
+        <ContactMe />
       </div>
     </main>
   );

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutMe() {
   return (
     <section id="about" className="flex justify-center items-center w-full">
@@ -10,7 +12,13 @@ export default function AboutMe() {
         </div>
         <div className="xl:w-[44rem] lg:w-[44rem] sm:w-full md:w-full xl:bg-neutral-700 lg:bg-neutral-700 flex flex-row justify-center items-center xl:p-8 lg:p-8 xl:gap-8 lg:gap-8 xl:border-2 lg:border-2 lg:border-opacity-10 xl:border-opacity-10 xl:shadow-md lg:shadow-md xl:shadow-neutral-500/50 lg:shadow-neutral-500/50 xl:border-neutral-500 lg:border-neutral-500 xl:rounded-lg lg:rounded-lg">
           <div className="rounded-md bg-[#c3467b] xl:block lg:block hidden">
-            <img src="/avatar.svg" alt="emoji" className="w-60 p-4" />
+            <Image
+              src="/avatar.svg"
+              width={100}
+              height={100}
+              alt="emoji"
+              className="w-60 p-4"
+            />
           </div>
           <div className="w-full flex flex-col justify-center items-center xl:justify-start xl:items-start lg:justify-start lg:items-start xl:pl-8 lg:pl-8 h-full xl:border-l-2 lg:border-l-2 xl:border-[#c3467b] lg:border-[#c3467b]">
             <p className="text-base text-[#c3467b] xl:block lg:block hidden">

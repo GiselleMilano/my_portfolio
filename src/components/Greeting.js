@@ -17,10 +17,12 @@ export default function Greeting() {
           />
         </div>
         <div className="h-full text-2xl xl:text-left lg:text-left text-center text-neutral-50">
-          <p>
-            Hi! My name's Giselle.{" "}
-            <img
+          <p className="flex gap-2">
+            Hi! My name's Giselle.
+            <Image
               src="/my_emoji_white.svg"
+              width={100}
+              height={100}
               alt="emoji"
               className="w-6 h-6 inline ml-1"
             />
@@ -28,7 +30,13 @@ export default function Greeting() {
           <p>Welcome to my web portfolio!</p>
         </div>
       </div>
-      <img src="/wave.svg" alt="Wave svg" className="w-full" />
+      <Image
+        src="/wave.svg"
+        width={200}
+        height={200}
+        alt="Wave svg"
+        className="w-full"
+      />
     </section>
   );
 }

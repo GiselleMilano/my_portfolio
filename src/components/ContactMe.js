@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ContactMe() {
   return (
     <section
@@ -12,8 +14,10 @@ export default function ContactMe() {
         <li className="justify-center gap-2 flex flex-col items-center text-center text-neutral-50 p-4 rounded-md">
           <a href="https://github.com/GiselleMilano" target="_blank">
             <div className="border-2 border-neutral-50 rounded-full">
-              <img
+              <Image
                 src="/github-svgrepo-com.svg"
+                width={100}
+                height={100}
                 alt="Medal svg"
                 className="w-16 p-3"
               />
@@ -27,8 +31,10 @@ export default function ContactMe() {
             target="_blank"
           >
             <div className="border-2 border-neutral-50 rounded-full">
-              <img
+              <Image
                 src="/linkedin-svgrepo-com.svg"
+                width={100}
+                height={100}
                 alt="Medal svg"
                 className="w-16 p-3"
               />

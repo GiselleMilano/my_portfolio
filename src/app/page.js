@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Greeting from "@/components/Greeting";
 import AboutMe from "@/components/AboutMe";
 import SkillsGrid from "@/components/SkillsGrid";
+import SoftSkillsGrid from "@/components/SoftSkillsGrid";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Greeting />
         <AboutMe />
         <SkillsGrid />
+        <SoftSkillsGrid />
       </div>
     </main>
   );

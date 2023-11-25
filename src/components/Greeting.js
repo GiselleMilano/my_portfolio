@@ -18,7 +18,7 @@ export default function Greeting() {
         </div>
         <div className="h-full text-2xl xl:text-left lg:text-left text-center text-neutral-50">
           <p className="flex gap-2">
-            Hi! My name's Giselle.
+            Hi! My name&apos;s Giselle.
             <Image
               src="/my_emoji_white.svg"
               width={100}

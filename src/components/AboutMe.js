@@ -28,7 +28,7 @@ export default function AboutMe() {
               Giselle Milano
             </h2>
             <p className=" text-neutral-50 text-sm xl:text-left lg:text-left text-center pl-8 pr-8 lg:pl-0 xl:pr-0">
-              I'm a 23 year old Uruguayan full-stack developer. I have been
+              I&apos;m a 23 year old Uruguayan full-stack developer. I have been
               programming since approximately 2019, and I have spent these past
               years learning and practicing my skills in a self-taught and
               proactive manner. In my free time, I enjoy working on my personal
